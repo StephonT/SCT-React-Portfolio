@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import Pdf from "../assets/Treadwell-Resume.pdf";
 
 const Navbar = () => {
 
@@ -55,7 +56,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#475569]">
-            <a className="flex justify-between items-center w-full text-gray-300" href="https://github.com/StephonT" target="_blank">
+            <a className="flex justify-between items-center w-full text-gray-300" href={Pdf} target="_blank" rel="noreferrer" download>
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
