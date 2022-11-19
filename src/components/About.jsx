@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-slate-300">
@@ -10,16 +11,17 @@ const About = () => {
               About
             </p>
           </div>
+          
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div>
-            <p>
-            I am a husband and a father. I love to play video games, basketball, and read inspirational books. I also love the deep blue sea and interested in what lives beneath the ocean. Whale watching in Alaska is at the top of my bucket list. An added hobby of mine is learning technology languages and applying them to projects (Refer to the portfolio section to see my projects).
+            <p className="sm:text-right text-4xl font-bold">
+            Hi. I'm Stephon. Nice to meet you! Please take a look around.
             </p>
           </div>
           <div>
-            <p> I am currently a Police Sergeant in the state of New Jersey. I am looking to switch careers into the tech industry so that I can help people on a larger scale. As technology continues to grow around us, so does the opportunities.   </p>
+            <p className="text-lg"> I am currently a Police Sergeant in the state of New Jersey. I am looking to switch careers to become a software engineer. I am passionate about building web applications on the front-end as well as the back-end. I am currently building full stack projects for fun and learning purposes until I become a contributing asset to an organization that hires me as a Full Stack Software Engineer. Feel free to contact me if you would like to collaborate on a project, have questions for me, or would like to hire me! Please refer to the contact section of my portfolio for my contact information.</p>
           </div>
         </div>
       </div>

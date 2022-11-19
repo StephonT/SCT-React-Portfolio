@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import Face from "../assets/images/Face.png"
 
 function Home() {
   return (
