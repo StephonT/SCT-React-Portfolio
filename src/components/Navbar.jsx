@@ -13,7 +13,7 @@ const Navbar = () => {
       "Home",
       "About",
       "Skills",
-      "Portfolio",
+      "Projects",
       "Contact"
     ]
 
@@ -21,7 +21,7 @@ const Navbar = () => {
       "Home",
       "About",
       "Skills",
-      "Portfolio",
+      "Projects",
       "Contact"
     ]
 
