@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Pdf from "../assets/Treadwell-Resume.pdf";
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
 
@@ -27,9 +28,11 @@ const Navbar = () => {
 
     const renderNavList = (navListArray) => {
       return navListArray.map((navList) => {
-        return <li>{navList}</li>
+        return <li><Link to={navList.toLowerCase} smooth={true} duration={500}>{navList}</Link></li>
+        
       })
     }
+    // console.log(navList.toLowerCase);
 
     const renderMobileNavList = (mobileNavListArray => {
       return mobileNavListArray.map((mobileNavList) => {
