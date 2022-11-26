@@ -21,7 +21,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <p className="text-lg"> I am currently a Police Sergeant in the state of New Jersey. I am looking to switch careers to become a software engineer. I am passionate about building web applications on the front-end as well as the back-end. I am currently building full stack projects for fun and learning purposes until I become a contributing asset to an organization that hires me as a Full Stack Software Engineer. Feel free to contact me if you would like to collaborate on a project, have questions for me, or would like to hire me! Please refer to the contact section of my portfolio for my contact information.</p>
+            <p className="text-lg"> I am currently a Police Sergeant in the state of New Jersey. I am looking to switch careers to become a Software Engineer. I am passionate about building web applications on the front-end as well as the back-end. I am currently building projects using React.js and collaborating with other Software Developers on full stack projects. Feel free to contact me if you would like to collaborate on a project, have questions for me, or would like to hire me! Please refer to the contact section of my portfolio for my contact information.</p>
           </div>
         </div>
       </div>
