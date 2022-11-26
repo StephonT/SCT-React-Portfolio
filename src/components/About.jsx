@@ -1,4 +1,5 @@
 import React from "react";
+import Face from "../assets/images/Face.png"
 
 
 const About = () => {
@@ -11,14 +12,15 @@ const About = () => {
               About
             </p>
           </div>
-          
           <div></div>
+
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div  className="sm:text-right text-4xl font-bold">
+          <div  className="sm:text-right text-4xl font-bold flex ">
             <p>
             Hi. I'm Stephon. Nice to meet you! Please take a look around.
             </p>
+            <img src={Face} alt="Picture of Treadwell" className="ml-10 border-double border-4" />
           </div>
           <div>
             <p className="text-lg"> I am currently a Police Sergeant in the state of New Jersey. I am looking to switch careers to become a Software Engineer. I am passionate about building web applications on the front-end as well as the back-end. I am currently building projects using React.js and collaborating with other Software Developers on full stack projects. Feel free to contact me if you would like to collaborate on a project, have questions for me, or would like to hire me! Please refer to the contact section of my portfolio for my contact information.</p>

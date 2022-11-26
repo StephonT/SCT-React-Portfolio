@@ -28,3 +28,7 @@
         hsla(243, 45%, 20%, 0.8)   
     )!important;
 }
+
+.my-name {
+    animation-duration: 1s;
+}
