@@ -9,6 +9,7 @@ import typescript from "../assets/images/tech-logos/TypeScript.png";
 import reactimg from "../assets/images/tech-logos/react.png";
 
 const Skills = () => {
+  
   const techSkills = [
     {skill: html, title: 'Html'},
     {skill: css, title: "Css"},
