@@ -10,22 +10,26 @@ import reactimg from "../assets/images/tech-logos/react.png";
 
 const Skills = () => {
   const techSkills = [
-    html,
-    css,
-    javascript,
-    node,
-    mongodb,
-    reactimg,
-    typescript,
-    github,
+    {skill: html, title: 'Html'},
+    {skill: css, title: "Css"},
+    {skill: javascript, title: "Javascript"},
+    {skill: node, title: "Node"},
+    {skill: mongodb, title: "MongoDb"},
+    {skill: reactimg, title: "React"},
+    {skill: typescript, title: "Typescript"},
+    {skill: github, title: "Github"},
   ];
 
   const renderTechSkills = (techSkillsArray) => {
     return techSkillsArray.map((techSkill) => {
-      return <img className="w-40 mx-auto" src={techSkill} />;
+      return (
+        <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <img className="w-20 mx-auto" src={techSkill.skill} alt="" />
+          <p className="my-4 text-xl">{techSkill.title}</p>
+        </div>
+      );
     });
   };
-
 
   return (
     <div name="skills" className="w-full h-screen bg-[#0a192f] text-slate-300">
@@ -39,38 +43,7 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-3 text-center py-8">
-          <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={html} alt="" />
-            <p className="my-4">HTML</p>
-          </div>
-          <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={css} alt="" />
-            <p className="my-4">CSS</p>
-          </div>
-          <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={javascript} alt="" />
-            <p className="my-4">JavaScript</p>
-          </div>
-          <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={node} alt="" />
-            <p className="my-4">Node</p>
-          </div>
-          <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={mongodb} alt="" />
-            <p className="my-4">MongoDB</p>
-          </div>
-          <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={reactimg} alt="" />
-            <p className="my-4">React</p>
-          </div>
-          <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={typescript} alt="" />
-            <p className="my-4">TypeScript</p>
-          </div>
-          <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={github} alt="" />
-            <p className="my-4">Github</p>
-          </div>
+          {renderTechSkills(techSkills)}
         </div>
       </div>
     </div>
