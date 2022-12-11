@@ -24,7 +24,7 @@ const About = () => {
           </div>
           <div>
           <p className="text-white py-2 text-lg">
-            I started web development on CodeAcademy in April of 2022, where I learned HTML, CSS, and Javascript. After completing each lesson, I grew a passion for the tech industry and decided to start a 6 month Coding Bootcamp at Rutgers University where I recently earned a Full-Stack Development certificate. During those 6 months, I learned how to use different technologies within the full stack. I am proficient in building front-end applications using HTML, CSS, Javascript, and React.
+            I started web development on CodeAcademy in January of 2022, where I learned HTML, CSS, and Javascript. After completing each lesson, I grew a passion for the tech industry and decided to start a 6 month Coding Bootcamp at Rutgers University where I recently earned a Full-Stack Development certificate. During those 6 months, I learned how to use different technologies within the full stack. I am proficient in building front-end applications using HTML, CSS, Javascript, and React.
           </p>
           <p className="text-white py-2 text-lg">
              I have experience with working directly with clients and taking mock wireframes to deployed applications. In my spare time, I learn a new technology then apply the newly learned skill into an application using React or another React framework. I believe that being a great developer is not using one specific language, but choosing the best tool for the job.  
