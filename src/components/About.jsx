@@ -20,10 +20,15 @@ const About = () => {
             <p>
             Hi. I'm Stephon. Nice to meet you! Please take a look around.
             </p>
-            <img src={Face} alt="Picture of Treadwell" className="ml-10 border-double border-4" />
+            <img src={Face} alt="/" className="ml-10 border-double border-4" />
           </div>
           <div>
-            <p className="text-lg"> I am currently a Police Sergeant in the state of New Jersey. I am looking to switch careers to become a Software Engineer. I am passionate about building web applications on the front-end as well as the back-end. I am currently building projects using React.js and collaborating with other Software Developers on full stack projects. Feel free to contact me if you would like to collaborate on a project, have questions for me, or would like to hire me! Please refer to the contact section of my portfolio for my contact information.</p>
+          <p className="text-white py-2 text-lg">
+            I started web development on CodeAcademy in April of 2022, where I learned HTML, CSS, and Javascript. After completing each lesson, I grew a passion for the tech industry and decided to start a 6 month Coding Bootcamp at Rutgers University where I recently earned a Full-Stack Development certificate. During those 6 months, I learned how to use different technologies within the full stack. I am proficient in building front-end applications using HTML, CSS, Javascript, and React.
+          </p>
+          <p className="text-white py-2 text-lg">
+             I have experience with working directly with clients and taking mock wireframes to deployed applications. In my spare time, I learn a new technology then apply the newly learned skill into an application using React or another React framework. I believe that being a great developer is not using one specific language, but choosing the best tool for the job.  
+          </p>
           </div>
         </div>
       </div>
