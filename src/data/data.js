@@ -1,5 +1,5 @@
 import CodeFlow from "../assets/projects/Code-Flow.jpg";
-import NoteTaker from "../assets/projects/noteTaker.jpg";
+import NextWeather from "../assets/projects/next-weather-app.jpg";
 import PhotoPort from "../assets/projects/photoPort.jpg";
 import PizzaHunt from "../assets/projects/pizzaHunt.jpg";
 import TwitchUi from "../assets/projects/twitchUi.jpg";
@@ -43,9 +43,9 @@ export const data = [
     },
     {
         id:6,
-        name:"Node.js and Express Application",
-        image:NoteTaker,
-        github:"https://github.com/StephonT/Note-Taker",
-        live:"https://not3-t4ker.herokuapp.com/",
+        name:"Next Weather App",
+        image: NextWeather,
+        github:"https://github.com/StephonT/Weather-App",
+        live:"https://weather-app-six-cyan.vercel.app/",
     },
 ]
